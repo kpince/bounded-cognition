@@ -1,0 +1,11 @@
+flowchart TD
+  A[Lineage / External Cognition] --> B[Descendant Agent or Profile]
+  B --> C[Environmental Pressure]
+  C --> D[Local Adaptation]
+  D --> E[Candidate Cognitive PR]
+  E --> F[Review Gate]
+  F -->|Accept| G[Reviewed Artifact]
+  F -->|Reject| H[Rejection Note]
+  F -->|Revise| E
+  G --> I[Selective Inheritance Decision]
+  I --> A

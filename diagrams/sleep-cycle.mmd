@@ -1,0 +1,10 @@
+flowchart TD
+  A[Session History / Feedback / Failures / Successes] --> B[Sleep-Cycle Consolidation]
+  B --> C[Mine Signals]
+  C --> D[Group Patterns]
+  D --> E[Propose Candidate Adaptations]
+  E --> F[Attach Evidence, Risk, Scope, Gate]
+  F --> G[Sleep Report]
+  G --> H[Human / Operator Review]
+  H -->|Approved separately| I[Apply Bounded Artifact Change]
+  H -->|Rejected| J[Rejection Note]
